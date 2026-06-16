@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# 环境变量（有API Key，不能提交）
+.env
+
+# 向量数据库本地存储
+data/chroma_db/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
